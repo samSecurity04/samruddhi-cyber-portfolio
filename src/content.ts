@@ -1,3 +1,5 @@
+import { assetUrl } from './assetUrl'
+
 export const site = {
   name: 'Samruddhi Patil',
   title: 'SOC Analyst · Application Security · Defensive Cybersecurity',
@@ -7,7 +9,7 @@ export const site = {
   github: 'https://github.com/samSecurity04',
   githubDisplay: 'github.com/samSecurity04',
   email: 'psamruddhi0804@gmail.com',
-  resumePdf: '/Samruddhi_Patil_Resume.pdf',
+  resumePdf: assetUrl('Samruddhi_Patil_Resume.pdf'),
   openToWork: true,
 }
 
@@ -23,7 +25,7 @@ export const hero = {
 }
 
 export const about = {
-  photo: '/images/profile.jpg',
+  photo: assetUrl('images/profile.jpg'),
   title: 'Threat Profile',
   lead:
     'Cybersecurity professional with hands-on experience across application security, customer support, and technical troubleshooting, with a strong interest in SOC operations and defensive security. Experienced working in fast-paced support environments while continuously building practical cybersecurity skills through homelab projects and self-driven learning.',

@@ -36,4 +36,8 @@ npm run preview
 
 ## Deploy
 
-Deploy the `dist/` folder to Vercel, Netlify, or GitHub Pages.
+Live site: **https://samSecurity04.github.io/samruddhi-cyber-portfolio/**
+
+Pushes to `main` deploy automatically via GitHub Actions (`.github/workflows/deploy.yml`).
+
+Ensure **Settings → Pages → Build and deployment → Source** is set to **GitHub Actions** on the repository.
