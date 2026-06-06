@@ -38,6 +38,13 @@ npm run preview
 
 Live site: **https://samSecurity04.github.io/samruddhi-cyber-portfolio/**
 
-Pushes to `main` deploy automatically via GitHub Actions (`.github/workflows/deploy.yml`).
+Pushes to `main` build the site and publish the `gh-pages` branch automatically.
 
-Ensure **Settings → Pages → Build and deployment → Source** is set to **GitHub Actions** on the repository.
+### One-time GitHub setup (samSecurity04 account)
+
+1. Open [Repository Settings → Pages](https://github.com/samSecurity04/samruddhi-cyber-portfolio/settings/pages)
+2. Under **Build and deployment** → **Source**, choose **Deploy from a branch**
+3. **Branch:** `gh-pages` · **Folder:** `/ (root)` · **Save**
+4. Wait for the [Actions workflow](https://github.com/samSecurity04/samruddhi-cyber-portfolio/actions) to finish after the next push
+
+The first successful run creates the `gh-pages` branch; then Pages serves the site within a few minutes.
