@@ -1,4 +1,4 @@
-# Samruddhi Patil — Cybersecurity Portfolio
+# Samruddhi Patil - Cybersecurity Portfolio
 
 An innovative SOC-themed portfolio for Samruddhi Patil, built with React + Vite + TypeScript.
 
